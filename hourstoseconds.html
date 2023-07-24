@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Hours to seconds</title>
+</head>
+
+<body>
+    <script>
+        var hours = ""
+
+        do {
+            hours = prompt("Please enter hours as a non-negative integer");
+        }
+        while (isNaN(parseInt(hours)) || hours < 0); // not a string and a non-negative integer
+
+        var seconds = hours * 60 * 60
+
+        document.write(hours + " hours = " + seconds + " seconds.")
+    </script>
+</body>
+
+</html>
