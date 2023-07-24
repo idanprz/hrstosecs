@@ -1,0 +1,2 @@
+# hrstosecs
+ hours to seconds
